@@ -48,10 +48,6 @@ O objetivo principal da C3 é a implementação de um mecanismo de autenticaçã
 ![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)
 --- 
 
-### 📦 Implantação no Docker
-
-Um Dockerfile será criado para permitir a criação de uma imagem Docker da API, facilitando sua implantação e execução em diferentes ambientes.
-
 ## 📂 Estrutura do Projeto
 
 ```bash
