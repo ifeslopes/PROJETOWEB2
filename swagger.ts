@@ -8,8 +8,8 @@ const doc = {
             ' Este projeto consiste na criação de uma API de co utilizando o padrão MVC, implementando modelos existentes no Prisma Quickstart e adicionando um modelo para Comentários. Além disso, será desenvolvido um mecanismo de autenticação via Tokens JWT para a API',
         contact: {
             name: 'API Support',
-            url: 'https://github.com/howardroatti',
-            email: 'https://github.com/howardroatti',
+            url: 'https://github.com/ifeslopes',
+            email: 'https://github.com/ifeslopes',
         },
     },
     servers: [
@@ -126,12 +126,11 @@ const doc = {
     },
 };
 
-
 const outputFile = './swagger-output.json';
 const endpointsFiles = [
-    './src/routes/CommentRoutes.ts', 
-    './src/routes/PostRoutes.ts', 
-    './src/routes/UserRoutes.ts', 
+    './src/routes/CommentRoutes.ts',
+    './src/routes/PostRoutes.ts',
+    './src/routes/UserRoutes.ts',
     './src/routes/AuthRoutes.ts',
 ];
 

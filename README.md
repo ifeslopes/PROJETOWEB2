@@ -100,13 +100,13 @@ Para rodar o projeto, siga estas etapas:
 1. Clone o repositório para o seu computador usando o seguinte comando:
 
     ```bash
-    git clone https://github.com/howardroatti/PI-III-5DC1-2024-1.git
+    git clone https://github.com/ifeslopes/PROJETOWEB2.git
     ```
 
 2. Navegue até o diretório do projeto:
 
     ```bash
-    cd PI-III-5DC1-2024-1/backend
+    cd PROJETOWEB2
     ```
 
  # 🐳 Rodando Com Docker:
@@ -233,7 +233,7 @@ http://localhost:3005/docs
 
 ---
 
-Este README fornece uma visão geral clara e estruturada do projeto, incluindo seus objetivos, tecnologias utilizadas, estrutura do projeto e instruções para configuração e execução.
+Este README fornece uma visão geral clara e estruturada do projeto, incluindo seus objetivos, tecnologias utilizadas, estrutura do projeto e instruções para configuração e execução.<br>
 💻 Desenvolvido por [Leonardo Lopes](https://github.com/ifeslopes)
 
 ![GitHub](https://img.shields.io/github/followers/ifeslopes?style=social)
