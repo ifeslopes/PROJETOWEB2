@@ -93,19 +93,29 @@ O objetivo principal da C3 é a implementação de um mecanismo de autenticaçã
 
 Para rodar o projeto, siga estas etapas:
 
+**Rodando Com Docker Hub Imagem 🐳:** No terminal com Docker instalado execute o comando:
+```bash
+docker run -d --rm --name=api -p 3005:3005 lopes231/projetoweb2-apipost:v1
+```
+Será iniciado um servidor local do swagger na seguinte URL:
+
+```
+http://localhost:3005/docs
+```
+---
+
+**Rodando Com Git🐙 :** 
 1. Clone o repositório para o seu computador usando o seguinte comando:
+```bash
+git clone https://github.com/ifeslopes/PROJETOWEB2.git
+   ```
 
-    ```bash
-    git clone https://github.com/ifeslopes/PROJETOWEB2.git
-    ```
+3. Navegue até o diretório do projeto:
+```bash
+cd PROJETOWEB2
+```
 
-2. Navegue até o diretório do projeto:
-
-    ```bash
-    cd PROJETOWEB2
-    ```
-
- # 🐳 Rodando Com Docker:
+ # 🐳 Rodando e Criando Imagem Com Docker:
 Se você tiver o Docker e o Docker Compose instalados, execute os seguintes comandos:
 
 
@@ -118,6 +128,13 @@ para subir o contêineres:
 ```bash
 docker compose up 
  ```
+
+Será iniciado um servidor local do swagger na seguinte URL:
+
+```
+http://localhost:3005/docs
+```
+---
 Se você não tiver o Docker instalado, siga para o passo 3 .
   
 3. Execute o comando npm install para instalar todas as dependências do projeto:
@@ -146,10 +163,10 @@ Se você não tiver o Docker instalado, siga para o passo 3 .
 ```
 
 
-Será iniciado um servidor local do frontend na seguinte URL:
+Será iniciado um servidor local do swagger na seguinte URL:
 
 ```
-http://localhost:3005/
+http://localhost:3005/docs
 ```
 ---
 
